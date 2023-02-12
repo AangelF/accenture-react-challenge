@@ -1,0 +1,24 @@
+:root {
+  --orange: #FF7C42;
+}
+
+.orange-color{
+  color: var(--orange);
+}
+
+.white-color{
+  color: #fff
+}
+
+.edit-button{
+  background-color: var(--orange);
+  border-color: var(--orange);
+  border-radius: 50px;
+  height: 50px;
+  width: 50px;
+  
+}
+
+.shadow{
+  box-shadow: 20px 5px 5px #000;
+}

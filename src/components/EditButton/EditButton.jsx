@@ -1,12 +1,16 @@
-import React from 'react'
-import './styles.css';
+import React from 'react';
+import Button from 'react-bootstrap/Button';
+import '../styles.css';
 
 const EditButton = () => {
   return (
     <>
-      <p>Button</p>
+      <div className="d-flex justify-content-end m-2">
+        <Button className="white-color edit-button shadow">
+          <i className="fa-solid fa-pen"></i>
+        </Button>{' '}
+      </div>
     </>
-    
   )
 }
 
