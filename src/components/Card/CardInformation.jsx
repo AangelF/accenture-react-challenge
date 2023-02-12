@@ -20,8 +20,8 @@ const CardInformation = () => {
     <>
       <div className="m-4">
         {posts.map(post => (
-          <Card className="img text-white card-size d-inline-flex justify-content-center " key={post.id}>
-            <Card.Body className="d-flex flex-column justify-content-between ">
+          <Card className="img text-white card-size d-inline-flex" key={post.id}>
+            <Card.Body>
               <Card.Title className="fs-2">{post.title}</Card.Title>
               <div className="d-flex">
                 <p className="fst-italic">Comments</p>
