@@ -1,6 +1,12 @@
+import EditButton from "./components/EditButton/EditButton";
+import LogoAndTittle from "./components/LogoAndTittle/LogoAndTittle";
+
 function App() {
   return (
-    <p>Hola challenge</p>
+    <>
+      <LogoAndTittle/>
+      <EditButton/>
+    </>
   );
 }
 
