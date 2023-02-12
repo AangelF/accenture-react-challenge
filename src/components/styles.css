@@ -3,6 +3,7 @@
   --white: #fff;
   --black: #000;
   --gray: #918b8b;
+  --softgray: #f3eaea;
 }
 
 .orange-color{
@@ -33,7 +34,7 @@
 }
 
 .card-size{
-  height: 30%;
+  height: 50%;
   width: 50%;
 }
 
@@ -42,4 +43,13 @@
   background:url(https://source.unsplash.com/random);
   border-radius: 0;
   border-color: none;
+  height: 280px;
+}
+
+.img-information{
+  border-color: none;
+}
+
+.background-information{
+  background-color: var(--softgray);
 }

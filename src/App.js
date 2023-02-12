@@ -1,15 +1,17 @@
-import CardInformation from "./components/Card/CardInformation";
-import EditButton from "./components/EditButton/EditButton";
-import GroupButtons from "./components/GroupButtons/GroupButtons";
-import LogoAndTittle from "./components/LogoAndTittle/LogoAndTittle";
+import {
+  Routes,
+  Route,
+} from 'react-router-dom';
+import Information from './screens/Information';
+import Main from './screens/Main';
 
 function App() {
   return (
     <>
-      <LogoAndTittle/>
-      <EditButton/>
-      <GroupButtons/>
-      <CardInformation/>
+      <Routes>
+        <Route exact path='/' element={<Main/>}></Route>
+        <Route exact path='/info' element={<Information/>}></Route>
+      </Routes>
     </>
   );
 }

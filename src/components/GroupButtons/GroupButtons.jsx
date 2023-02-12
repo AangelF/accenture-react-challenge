@@ -5,7 +5,7 @@ import ButtonGroup from 'react-bootstrap/ButtonGroup';
 const GroupButtons = () => {
   return (
     <>
-      <div className='d-flex justify-content-center'>
+      <div className='container d-flex justify-content-center'>
         <ButtonGroup aria-label="GroupButtons">
           <Button variant="light" className='buttons-group'>All</Button>
           <Button variant="light" className='buttons-group'>Travel</Button>
